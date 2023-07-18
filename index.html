@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="content">
+            <a href="" ><img src="Photo.jpeg" alt="logo"></a>
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I'm a web developer passionate about creating interactive websites.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I am an experienced and highly skilled Frontend Developer and Graphic Designer, dedicated to delivering visually appealing and user-friendly web applications. With a strong command over HTML, CSS, and JavaScript, I have successfully developed dynamic and interactive websites that engage users and drive conversions.
+                My proficiency in graphic design software, including Adobe Photoshop, Illustrator, and Sketch, allows me to create captivating visual elements and seamless user interfaces. By combining my technical expertise with my creative flair, I strive to design intuitive and aesthetically pleasing experiences for users.               
+                I am passionate about staying abreast of the latest design trends and web technologies. This commitment drives me to continuously enhance my skills and explore innovative approaches to enhance the user experience. By incorporating cutting-edge techniques, responsive design principles, and accessibility standards, I ensure that the websites I create are optimized for performance, accessibility, and cross-platform compatibility.    
+                Throughout my career, I have collaborated closely with multidisciplinary teams, including designers, developers, and stakeholders, to translate complex requirements into elegant and effective solutions. I possess excellent communication skills, enabling me to effectively communicate design concepts, gather feedback, and incorporate necessary revisions to deliver exceptional results.               
+                I thrive in fast-paced and deadline-driven environments, consistently meeting project milestones while maintaining a keen eye for detail. I am adept at managing multiple projects simultaneously, prioritizing tasks, and adapting to evolving project requirements. With a proactive and solution-oriented mindset, I approach challenges with creativity and resourcefulness, finding innovative solutions to ensure project success.                
+                As a passionate Frontend Developer and Graphic Designer, my goal is to create meaningful and impactful web experiences that captivate users and leave a lasting impression. I am excited to contribute my skills and expertise to projects that push boundaries and elevate the standards of frontend development and graphic design.   
+                Feel free to tailor this profile to your specific experiences and accomplishments.
+                </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3><a href="https://github.com/Nikhilshankhwar/NetflixClone" class="project">Netflix Clone</a></h3>
+                <p>Using HTML to structure the Front page like div's,
+                    nav's ordered list and unordered list.<br>
+                    Using CSS to design the Front Page and arrange it.<br>
+                    Using JavaScript to save data in Backend Server.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/Nikhilshankhwar/Restaurant-Front-Page" class="project">Restaurant Front Page</a></h3>
+                <p>Using HTML div's and nav's and Paragraphs tags to
+                    build the body.<br>
+                    Using CSS I designed the whole structure of the Front
+                    Page.<br>
+                    Using JavaScript in backend to store the data.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/Nikhilshankhwar/Calculator" class="project">Calculator</a></h3>
+                <p>Using React.js to build this calculator.<br>
+                    Using CSS to design the calculator layout.<br>
+                    It can add, subtract, multiply, or divide the numbers
+                    easily.
+                    </p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/Nikhilshankhwar/Form-Page-" class="project">Design a Form Page</a></h3>
+                <p>Using HTML div's and nav's to build the form page.<br>
+                    Using padding and margin in CSS to design the form
+                    page.<br>
+                    Using JavaScript for Saving or updating data in
+                    backend.</p>
+            </div>
+            <div class="project">
+                <h3><a href="https://nikhilshankhwar.github.io/Tracker/" class="project">Background Voice Detector</a></h3>
+                <p>The background voice detector is a feature or algorithm that is used to identify and differentiate between background noise and the primary voice or sound of interest. It is commonly employed in various applications such as speech recognition, voice communication systems, and audio processing.
+                    The purpose of a background voice detector is to enhance the accuracy and effectiveness of voice-related tasks by isolating and focusing on the primary voice signal while minimizing the influence of unwanted background noise. This is especially important in scenarios where clear and accurate voice recognition or communication is required.                   
+                    The background voice detector works by analyzing the audio signal and applying various techniques to identify and classify different components of the sound. It typically involves a combination of signal processing, statistical analysis, and machine learning algorithms.</p>
+            </div>
+            <div class="project">
+                <h3>Smart Programmable Thermostat as Energy Saving Element</h3>
+                <p>A conventional thermostat(DS18B20) programmed
+                    with Arduino to use as a SMART Thermostat detecting
+                    temperature and switching off appliances according
+                    use with a Bluetooth module to control without hassle.</p>
+            </div>
+            <div class="project">
+                <h3>Hexa-Copter Drone</h3>
+                <p>Workshop on designing a hexa-copter drone for a
+                    project in AICTE IDEA LAB using Mission Planner.
+                    Conducted extensive testing to ensure the drone's
+                    stability and safety.
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <form id="contact-form" method="POST" action="send-email.php">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
